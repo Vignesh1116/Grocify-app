@@ -1,4 +1,4 @@
-import { useAuth } from "@clerk/expo";
+import { useAuth } from "./clerk";
 import { Redirect } from "expo-router";
 
 const SSOCallbackScreen = () => {
